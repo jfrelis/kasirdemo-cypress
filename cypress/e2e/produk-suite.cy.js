@@ -9,11 +9,11 @@ describe("Produk", () => {
     describe("Create Produk", () => {
         var product_code = random.product_code()
         var product_name = random.product_name()
-        var product_description = 'qa testing purpose'
-        var buying_price = '50000'
-        var selling_price = '100000'
-        var stok = '100'
-        var kategori = 'Qa category please do not delete'
+        var product_description = data.product_data.static_product_desc
+        var buying_price = data.product_data.static_buying_price
+        var selling_price = data.product_data.static_selling_price
+        var stok = data.product_data.static_stock
+        var kategori = data.product_data.static_category
 
         beforeEach(() => {
             base.openUrl()
