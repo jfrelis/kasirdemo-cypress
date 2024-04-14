@@ -13,5 +13,8 @@ module.exports = {
     customer_data: {
         static_address: 'Jl. panjang',
         static_information: 'for testing purpose'
+    },
+    category_data: {
+        static_description: 'for testing purpose'
     }
 }
