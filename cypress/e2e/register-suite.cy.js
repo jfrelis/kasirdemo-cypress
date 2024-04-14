@@ -1,6 +1,6 @@
 const registerPage = require('../support/page-object/register-page/register-page')
 const base = require('../support/page-object/base')
-const random = require('../support/common-function/randomize-account')
+const random = require('../support/common-function/randomize')
 
 describe("Register", () => {
     it("with valid data", () => {
