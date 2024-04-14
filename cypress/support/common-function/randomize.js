@@ -25,6 +25,10 @@ class Randomize {
     product_name() {
         return 'qa-product-' + faker.date.recent()
     }
+
+    phone_number() {
+        return faker.number.int()
+    }
 }
 
 module.exports = new Randomize();

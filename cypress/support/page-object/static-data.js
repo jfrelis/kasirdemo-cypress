@@ -9,5 +9,9 @@ module.exports = {
         static_selling_price: '100000',
         static_stock: '100',
         static_category: 'Qa category please do not delete'
+    },
+    customer_data: {
+        static_address: 'Jl. panjang',
+        static_information: 'for testing purpose'
     }
 }
