@@ -29,6 +29,10 @@ class Randomize {
     phone_number() {
         return faker.number.int()
     }
+
+    category_name() {
+        return 'qa-category-' + faker.date.recent()
+    }
 }
 
 module.exports = new Randomize();
