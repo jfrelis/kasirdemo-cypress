@@ -3,7 +3,7 @@ const base = require('../support/page-object/base')
 const data = require('../support/page-object/static-data')
 const dashboardPage = require('../support/page-object/dashboard-page/dashboard-page')
 
-describe("Register", () => {
+describe("Login", () => {
     it("with valid data", () => {
         base.openUrl()
         loginPage.userLogin(data.user_data.registered_username, data.user_data.registered_password)
