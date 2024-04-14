@@ -1,6 +1,6 @@
 import { faker } from '@faker-js/faker'
 
-class RandomizeAccount {
+class Randomize {
     constructor() {
         this.randomName = '';
     }
@@ -17,6 +17,14 @@ class RandomizeAccount {
     password() {
         return this.randomName + '123';
     }
+
+    product_code() {
+        return 'QAPROD' + faker.number.int()
+    }
+
+    product_name() {
+        return 'qa-product-' + faker.date.recent()
+    }
 }
 
-module.exports = new RandomizeAccount();
+module.exports = new Randomize();
